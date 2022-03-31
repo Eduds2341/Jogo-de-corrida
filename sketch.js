@@ -28,7 +28,7 @@ function preload() {
   obs1=loadImage("./assets/obstacle1.png");
   obs2=loadImage("./assets/obstacle2.png");
   lifeImg=loadImage("./assets/life.png");
-  blastImg = loadImage9("./assets/blast.png")
+  blastImg = loadImage("./assets/blast.png")
   
 
   fuelImg=loadImage("./assets/fuel.png");
