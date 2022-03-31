@@ -32,6 +32,12 @@ class Form {
       var message=`Olá, ${this.input.value()}</br>
       Espere o próximo jogador!`
       this.greeting.html(message)
+      playerCount ++
+      player.name = this.input.value()
+      player.index = playerCount
+      player.addPlayer()
+      player.updateCount(playerCount);
+      player.getDistance()
     })
   }
 
@@ -39,6 +45,7 @@ class Form {
     this.setElementsPosition()
     this.setElementsStyle()
     this.handleMousePressed()
+
   }
   
 }
